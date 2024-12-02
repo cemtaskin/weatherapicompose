@@ -50,6 +50,10 @@ android {
 }
 
 dependencies {
+    val retrofitVersion= "2.11.0"
+    implementation("com.squareup.retrofit2:retrofit:${retrofitVersion}")
+    implementation("com.squareup.retrofit2:converter-gson:${retrofitVersion}")
+
 
     implementation("androidx.core:core-ktx:1.15.0")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.8.7")
